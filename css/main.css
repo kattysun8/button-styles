@@ -11,3 +11,8 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+.btn {
+  radius: 0.5px;
+  background-color: #000;
+}
