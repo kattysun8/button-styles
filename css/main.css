@@ -13,6 +13,28 @@ div {
 }
 
 .btn {
-  radius: 0.5px;
-  background-color: #000;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+.btn-black {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-grey {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+  border: solid 3px;
+}
+
+.btn-red {
+  background-color: #f33;
+  color: #fff;
 }
