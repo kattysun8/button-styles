@@ -16,34 +16,36 @@ div {
   border-radius: 6px;
   text-decoration: none;
   padding: 0.5em;
+  display: block;
+  margin: 0.5em 25em;
+  font-size: 0.875rem;
 }
 
-.btn-black {
+.btn-small {
+  font-size: 1rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-primary {
   background-color: #333;
   color: #fff;
 }
 
-.btn-grey {
+.btn-subtle {
   background-color: #ccc;
   color: #fff;
 }
 
-.btn-white {
+.btn-ghost {
   background-color: #fff;
   color: #000;
   border: solid 3px;
 }
 
-.btn-red {
+.btn-warning {
   background-color: #f33;
   color: #fff;
-}
-
-.btn-small {
-  padding: 1.0em;
-  margin: 1.0em;
-}
-
-.btn-big {
-  padding: 1.5em;
 }
