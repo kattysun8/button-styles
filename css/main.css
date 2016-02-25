@@ -13,12 +13,17 @@ div {
 }
 
 .btn {
-  border-radius: 6px;
+  border-radius: 8px;
   text-decoration: none;
-  padding: 0.5em;
-  display: block;
-  margin: 0.5em 25em;
+  padding: 0.4em 0.75em 0.3em;
+  display: inline-block;
+  margin: 0.5em 2em;
   font-size: 0.875rem;
+  border: solid 3px;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 .btn-small {
@@ -39,13 +44,25 @@ div {
   color: #fff;
 }
 
+.btn-subtle:hover {
+  background-color: #666;
+}
+
 .btn-ghost {
   background-color: #fff;
-  color: #000;
-  border: solid 3px;
+  color: #666;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
 }
 
 .btn-warning {
   background-color: #f33;
   color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
