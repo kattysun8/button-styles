@@ -38,3 +38,12 @@ div {
   background-color: #f33;
   color: #fff;
 }
+
+.btn-small {
+  padding: 1.0em;
+  margin: 1.0em;
+}
+
+.btn-big {
+  padding: 1.5em;
+}
